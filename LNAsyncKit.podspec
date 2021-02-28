@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.requires_arc = true
 
-  s.subspec 'UIElement' do |ss|
-    ss.source_files = "LNAsyncKit/LNAsyncKit/UIElement/**/*.{h,m}"
+  s.subspec 'Element' do |ss|
+    ss.source_files = "LNAsyncKit/LNAsyncKit/Element/**/*.{h,m}"
   end
 
   s.subspec 'Cache' do |ss|
