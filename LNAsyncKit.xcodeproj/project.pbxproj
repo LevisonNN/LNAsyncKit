@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		989ABCBC374B2A538E739779 /* libPods-LNAsyncKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B184E9F181693C5EB287272 /* libPods-LNAsyncKit.a */; };
+		A54C4AD325EBEC7400787C2C /* LNAsyncScrollDirectionExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4AD225EBEC7400787C2C /* LNAsyncScrollDirectionExtend.m */; };
+		A54C4AD925EBEC9800787C2C /* LNAsyncInterfaceStatusExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4AD825EBEC9800787C2C /* LNAsyncInterfaceStatusExtend.m */; };
+		A54C4ADF25EBECBD00787C2C /* LNAsyncAbstractLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4ADE25EBECBD00787C2C /* LNAsyncAbstractLayoutController.m */; };
+		A54C4AE525EBECEA00787C2C /* LNAsyncCollectionLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4AE425EBECEA00787C2C /* LNAsyncCollectionLayoutController.m */; };
+		A54C4AEB25EBED1300787C2C /* LNAsyncRangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4AEA25EBED1300787C2C /* LNAsyncRangeController.m */; };
+		A54C4AF125EBED3400787C2C /* LNAsyncCollectionViewPrender.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4AF025EBED3400787C2C /* LNAsyncCollectionViewPrender.m */; };
+		A54C4AF725EBED5C00787C2C /* LNAsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4AF625EBED5C00787C2C /* LNAsyncOperation.m */; };
+		A54C4AFD25EBED7500787C2C /* LNAsyncOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4AFC25EBED7500787C2C /* LNAsyncOperationQueue.m */; };
+		A54C4B0325EBED9600787C2C /* LNAsyncOperationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B0225EBED9600787C2C /* LNAsyncOperationGroup.m */; };
+		A54C4B0925EBEDB300787C2C /* LNAsyncTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B0825EBEDB300787C2C /* LNAsyncTransaction.m */; };
+		A54C4B0F25EBEDD600787C2C /* LNAsyncTransactionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B0E25EBEDD600787C2C /* LNAsyncTransactionGroup.m */; };
+		A54C4B1B25EBEE8000787C2C /* DemoBilibiliCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B1A25EBEE8000787C2C /* DemoBilibiliCellViewController.m */; };
+		A54C4B2425EBEEA100787C2C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B2325EBEEA100787C2C /* MainViewController.m */; };
+		A54C4B2A25EBEEB500787C2C /* DemoItemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B2925EBEEB500787C2C /* DemoItemObject.m */; };
+		A54C4B3025EBEEC900787C2C /* DemoItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B2F25EBEEC900787C2C /* DemoItemCollectionViewCell.m */; };
+		A54C4B3C25EBEF5D00787C2C /* DemoDefaultFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B3B25EBEF5D00787C2C /* DemoDefaultFeedViewController.m */; };
+		A54C4B4625EBEF9C00787C2C /* DemoDefaultFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B4525EBEF9C00787C2C /* DemoDefaultFeedCell.m */; };
+		A54C4B4F25EBEFD500787C2C /* DemoDefaultFeedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B4E25EBEFD500787C2C /* DemoDefaultFeedSectionController.m */; };
+		A54C4B5725EBF01500787C2C /* DemoFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B5625EBF01500787C2C /* DemoFeedModel.m */; };
+		A54C4B6025EBF02000787C2C /* DemoFeedItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B5F25EBF02000787C2C /* DemoFeedItemModel.m */; };
+		A54C4B6625EBF05500787C2C /* DemoFeedNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B6525EBF05500787C2C /* DemoFeedNetwork.m */; };
+		A54C4B6D25EBF08E00787C2C /* DemoAsyncFeedDisplayLayoutObj.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B6C25EBF08E00787C2C /* DemoAsyncFeedDisplayLayoutObj.m */; };
+		A54C4B7825EBF0F700787C2C /* DemoAsyncFeedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B7725EBF0F700787C2C /* DemoAsyncFeedSectionController.m */; };
+		A54C4B8225EBF12300787C2C /* DemoAsyncFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B8125EBF12300787C2C /* DemoAsyncFeedCell.m */; };
+		A54C4B8B25EBF14500787C2C /* DemoAsyncFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B8A25EBF14500787C2C /* DemoAsyncFeedViewController.m */; };
+		A54C4B9225EBF61000787C2C /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C4B9125EBF61000787C2C /* CHTCollectionViewWaterfallLayout.m */; };
+		A55D2F9025EBE90500A971AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2F8F25EBE90500A971AE /* AppDelegate.m */; };
+		A55D2F9925EBE90500A971AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55D2F9725EBE90500A971AE /* Main.storyboard */; };
+		A55D2F9B25EBE90500A971AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55D2F9A25EBE90500A971AE /* Assets.xcassets */; };
+		A55D2F9E25EBE90500A971AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55D2F9C25EBE90500A971AE /* LaunchScreen.storyboard */; };
+		A55D2FA125EBE90500A971AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FA025EBE90500A971AE /* main.m */; };
+		A55D2FAB25EBE90500A971AE /* LNAsyncKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FAA25EBE90500A971AE /* LNAsyncKitTests.m */; };
+		A55D2FB625EBE90500A971AE /* LNAsyncKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FB525EBE90500A971AE /* LNAsyncKitUITests.m */; };
+		A55D2FDD25EBE98800A971AE /* LNAsyncRenderCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FDC25EBE98800A971AE /* LNAsyncRenderCache.m */; };
+		A55D2FE625EBE99200A971AE /* LNAsyncMemoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FE525EBE99200A971AE /* LNAsyncMemoryInfo.m */; };
+		A55D2FEC25EBE9D000A971AE /* LNAsyncElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FEB25EBE9D000A971AE /* LNAsyncElement.m */; };
+		A55D2FF225EBE9FE00A971AE /* LNAsyncImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FF125EBE9FE00A971AE /* LNAsyncImageElement.m */; };
+		A55D2FF825EBEA1B00A971AE /* LNAsyncTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FF725EBEA1B00A971AE /* LNAsyncTextElement.m */; };
+		A55D2FFE25EBEA3800A971AE /* LNAsyncLinerGradientElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D2FFD25EBEA3800A971AE /* LNAsyncLinerGradientElement.m */; };
+		A55D300425EBEA6200A971AE /* LNAsyncRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D300325EBEA6200A971AE /* LNAsyncRenderer.m */; };
+		A55D300A25EBEA7100A971AE /* LNAsyncRendererTraversalStack.m in Sources */ = {isa = PBXBuildFile; fileRef = A55D300925EBEA7100A971AE /* LNAsyncRendererTraversalStack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A55D2FA725EBE90500A971AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55D2F8325EBE90500A971AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55D2F8A25EBE90500A971AE;
+			remoteInfo = LNAsyncKit;
+		};
+		A55D2FB225EBE90500A971AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55D2F8325EBE90500A971AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55D2F8A25EBE90500A971AE;
+			remoteInfo = LNAsyncKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B184E9F181693C5EB287272 /* libPods-LNAsyncKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNAsyncKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54C4AD125EBEC7400787C2C /* LNAsyncScrollDirectionExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncScrollDirectionExtend.h; sourceTree = "<group>"; };
+		A54C4AD225EBEC7400787C2C /* LNAsyncScrollDirectionExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncScrollDirectionExtend.m; sourceTree = "<group>"; };
+		A54C4AD725EBEC9800787C2C /* LNAsyncInterfaceStatusExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncInterfaceStatusExtend.h; sourceTree = "<group>"; };
+		A54C4AD825EBEC9800787C2C /* LNAsyncInterfaceStatusExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncInterfaceStatusExtend.m; sourceTree = "<group>"; };
+		A54C4ADD25EBECBD00787C2C /* LNAsyncAbstractLayoutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncAbstractLayoutController.h; sourceTree = "<group>"; };
+		A54C4ADE25EBECBD00787C2C /* LNAsyncAbstractLayoutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncAbstractLayoutController.m; sourceTree = "<group>"; };
+		A54C4AE325EBECEA00787C2C /* LNAsyncCollectionLayoutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncCollectionLayoutController.h; sourceTree = "<group>"; };
+		A54C4AE425EBECEA00787C2C /* LNAsyncCollectionLayoutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncCollectionLayoutController.m; sourceTree = "<group>"; };
+		A54C4AE925EBED1300787C2C /* LNAsyncRangeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncRangeController.h; sourceTree = "<group>"; };
+		A54C4AEA25EBED1300787C2C /* LNAsyncRangeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncRangeController.m; sourceTree = "<group>"; };
+		A54C4AEF25EBED3400787C2C /* LNAsyncCollectionViewPrender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncCollectionViewPrender.h; sourceTree = "<group>"; };
+		A54C4AF025EBED3400787C2C /* LNAsyncCollectionViewPrender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncCollectionViewPrender.m; sourceTree = "<group>"; };
+		A54C4AF525EBED5C00787C2C /* LNAsyncOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncOperation.h; sourceTree = "<group>"; };
+		A54C4AF625EBED5C00787C2C /* LNAsyncOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncOperation.m; sourceTree = "<group>"; };
+		A54C4AFB25EBED7500787C2C /* LNAsyncOperationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncOperationQueue.h; sourceTree = "<group>"; };
+		A54C4AFC25EBED7500787C2C /* LNAsyncOperationQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncOperationQueue.m; sourceTree = "<group>"; };
+		A54C4B0125EBED9600787C2C /* LNAsyncOperationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncOperationGroup.h; sourceTree = "<group>"; };
+		A54C4B0225EBED9600787C2C /* LNAsyncOperationGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncOperationGroup.m; sourceTree = "<group>"; };
+		A54C4B0725EBEDB300787C2C /* LNAsyncTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncTransaction.h; sourceTree = "<group>"; };
+		A54C4B0825EBEDB300787C2C /* LNAsyncTransaction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncTransaction.m; sourceTree = "<group>"; };
+		A54C4B0D25EBEDD600787C2C /* LNAsyncTransactionGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncTransactionGroup.h; sourceTree = "<group>"; };
+		A54C4B0E25EBEDD600787C2C /* LNAsyncTransactionGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncTransactionGroup.m; sourceTree = "<group>"; };
+		A54C4B1625EBEE3A00787C2C /* LNAsyncKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncKit.h; sourceTree = "<group>"; };
+		A54C4B1925EBEE8000787C2C /* DemoBilibiliCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBilibiliCellViewController.h; sourceTree = "<group>"; };
+		A54C4B1A25EBEE8000787C2C /* DemoBilibiliCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBilibiliCellViewController.m; sourceTree = "<group>"; };
+		A54C4B2225EBEEA100787C2C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A54C4B2325EBEEA100787C2C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A54C4B2825EBEEB500787C2C /* DemoItemObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoItemObject.h; sourceTree = "<group>"; };
+		A54C4B2925EBEEB500787C2C /* DemoItemObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoItemObject.m; sourceTree = "<group>"; };
+		A54C4B2E25EBEEC900787C2C /* DemoItemCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoItemCollectionViewCell.h; sourceTree = "<group>"; };
+		A54C4B2F25EBEEC900787C2C /* DemoItemCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoItemCollectionViewCell.m; sourceTree = "<group>"; };
+		A54C4B3A25EBEF5D00787C2C /* DemoDefaultFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoDefaultFeedViewController.h; sourceTree = "<group>"; };
+		A54C4B3B25EBEF5D00787C2C /* DemoDefaultFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoDefaultFeedViewController.m; sourceTree = "<group>"; };
+		A54C4B4325EBEF7F00787C2C /* DemoDefaultFeedDisplayProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoDefaultFeedDisplayProtocol.h; sourceTree = "<group>"; };
+		A54C4B4425EBEF9C00787C2C /* DemoDefaultFeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoDefaultFeedCell.h; sourceTree = "<group>"; };
+		A54C4B4525EBEF9C00787C2C /* DemoDefaultFeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoDefaultFeedCell.m; sourceTree = "<group>"; };
+		A54C4B4D25EBEFD500787C2C /* DemoDefaultFeedSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoDefaultFeedSectionController.h; sourceTree = "<group>"; };
+		A54C4B4E25EBEFD500787C2C /* DemoDefaultFeedSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoDefaultFeedSectionController.m; sourceTree = "<group>"; };
+		A54C4B5525EBF01500787C2C /* DemoFeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFeedModel.h; sourceTree = "<group>"; };
+		A54C4B5625EBF01500787C2C /* DemoFeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoFeedModel.m; sourceTree = "<group>"; };
+		A54C4B5E25EBF02000787C2C /* DemoFeedItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFeedItemModel.h; sourceTree = "<group>"; };
+		A54C4B5F25EBF02000787C2C /* DemoFeedItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoFeedItemModel.m; sourceTree = "<group>"; };
+		A54C4B6425EBF05500787C2C /* DemoFeedNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFeedNetwork.h; sourceTree = "<group>"; };
+		A54C4B6525EBF05500787C2C /* DemoFeedNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoFeedNetwork.m; sourceTree = "<group>"; };
+		A54C4B6B25EBF08E00787C2C /* DemoAsyncFeedDisplayLayoutObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAsyncFeedDisplayLayoutObj.h; sourceTree = "<group>"; };
+		A54C4B6C25EBF08E00787C2C /* DemoAsyncFeedDisplayLayoutObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAsyncFeedDisplayLayoutObj.m; sourceTree = "<group>"; };
+		A54C4B7425EBF0A600787C2C /* DemoAsyncFeedDisplayProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAsyncFeedDisplayProtocol.h; sourceTree = "<group>"; };
+		A54C4B7625EBF0F700787C2C /* DemoAsyncFeedSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAsyncFeedSectionController.h; sourceTree = "<group>"; };
+		A54C4B7725EBF0F700787C2C /* DemoAsyncFeedSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAsyncFeedSectionController.m; sourceTree = "<group>"; };
+		A54C4B8025EBF12300787C2C /* DemoAsyncFeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAsyncFeedCell.h; sourceTree = "<group>"; };
+		A54C4B8125EBF12300787C2C /* DemoAsyncFeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAsyncFeedCell.m; sourceTree = "<group>"; };
+		A54C4B8925EBF14500787C2C /* DemoAsyncFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAsyncFeedViewController.h; sourceTree = "<group>"; };
+		A54C4B8A25EBF14500787C2C /* DemoAsyncFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAsyncFeedViewController.m; sourceTree = "<group>"; };
+		A54C4B9025EBF61000787C2C /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		A54C4B9125EBF61000787C2C /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		A55D2F8B25EBE90500A971AE /* LNAsyncKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNAsyncKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55D2F8E25EBE90500A971AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A55D2F8F25EBE90500A971AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A55D2F9825EBE90500A971AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A55D2F9A25EBE90500A971AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A55D2F9D25EBE90500A971AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A55D2F9F25EBE90500A971AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55D2FA025EBE90500A971AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A55D2FA625EBE90500A971AE /* LNAsyncKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNAsyncKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55D2FAA25EBE90500A971AE /* LNAsyncKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncKitTests.m; sourceTree = "<group>"; };
+		A55D2FAC25EBE90500A971AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55D2FB125EBE90500A971AE /* LNAsyncKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNAsyncKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55D2FB525EBE90500A971AE /* LNAsyncKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncKitUITests.m; sourceTree = "<group>"; };
+		A55D2FB725EBE90500A971AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55D2FDB25EBE98800A971AE /* LNAsyncRenderCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncRenderCache.h; sourceTree = "<group>"; };
+		A55D2FDC25EBE98800A971AE /* LNAsyncRenderCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncRenderCache.m; sourceTree = "<group>"; };
+		A55D2FE425EBE99200A971AE /* LNAsyncMemoryInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncMemoryInfo.h; sourceTree = "<group>"; };
+		A55D2FE525EBE99200A971AE /* LNAsyncMemoryInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncMemoryInfo.m; sourceTree = "<group>"; };
+		A55D2FEA25EBE9D000A971AE /* LNAsyncElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncElement.h; sourceTree = "<group>"; };
+		A55D2FEB25EBE9D000A971AE /* LNAsyncElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncElement.m; sourceTree = "<group>"; };
+		A55D2FF025EBE9FE00A971AE /* LNAsyncImageElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncImageElement.h; sourceTree = "<group>"; };
+		A55D2FF125EBE9FE00A971AE /* LNAsyncImageElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncImageElement.m; sourceTree = "<group>"; };
+		A55D2FF625EBEA1B00A971AE /* LNAsyncTextElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncTextElement.h; sourceTree = "<group>"; };
+		A55D2FF725EBEA1B00A971AE /* LNAsyncTextElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncTextElement.m; sourceTree = "<group>"; };
+		A55D2FFC25EBEA3800A971AE /* LNAsyncLinerGradientElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncLinerGradientElement.h; sourceTree = "<group>"; };
+		A55D2FFD25EBEA3800A971AE /* LNAsyncLinerGradientElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncLinerGradientElement.m; sourceTree = "<group>"; };
+		A55D300225EBEA6200A971AE /* LNAsyncRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncRenderer.h; sourceTree = "<group>"; };
+		A55D300325EBEA6200A971AE /* LNAsyncRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncRenderer.m; sourceTree = "<group>"; };
+		A55D300825EBEA7100A971AE /* LNAsyncRendererTraversalStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAsyncRendererTraversalStack.h; sourceTree = "<group>"; };
+		A55D300925EBEA7100A971AE /* LNAsyncRendererTraversalStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAsyncRendererTraversalStack.m; sourceTree = "<group>"; };
+		BEF8A9CB41AF75D08D6317D5 /* Pods-LNAsyncKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNAsyncKit.debug.xcconfig"; path = "Target Support Files/Pods-LNAsyncKit/Pods-LNAsyncKit.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3A97FDFB80D28520F9F314 /* Pods-LNAsyncKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNAsyncKit.release.xcconfig"; path = "Target Support Files/Pods-LNAsyncKit/Pods-LNAsyncKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55D2F8825EBE90500A971AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989ABCBC374B2A538E739779 /* libPods-LNAsyncKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55D2FA325EBE90500A971AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55D2FAE25EBE90500A971AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4864477831835DC2514C6066 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B184E9F181693C5EB287272 /* libPods-LNAsyncKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FC409606967C8282258D935 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEF8A9CB41AF75D08D6317D5 /* Pods-LNAsyncKit.debug.xcconfig */,
+				EB3A97FDFB80D28520F9F314 /* Pods-LNAsyncKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A54C4B1725EBEE5F00787C2C /* FeedDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B8F25EBF5E600787C2C /* FlowLayout */,
+				A54C4B3625EBEF3100787C2C /* DefaultFeed */,
+				A54C4B3525EBEF2A00787C2C /* AsyncFeed */,
+				A54C4B3425EBEF2500787C2C /* Data */,
+			);
+			path = FeedDemo;
+			sourceTree = "<group>";
+		};
+		A54C4B1825EBEE6600787C2C /* BilibiliCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B1925EBEE8000787C2C /* DemoBilibiliCellViewController.h */,
+				A54C4B1A25EBEE8000787C2C /* DemoBilibiliCellViewController.m */,
+			);
+			path = BilibiliCellDemo;
+			sourceTree = "<group>";
+		};
+		A54C4B3425EBEF2500787C2C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B5425EBF00400787C2C /* Model */,
+				A54C4B5325EBEFFE00787C2C /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A54C4B3525EBEF2A00787C2C /* AsyncFeed */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B7F25EBF11000787C2C /* Cell */,
+				A54C4B7525EBF0DC00787C2C /* SectionController */,
+				A54C4B6A25EBF07800787C2C /* DisplayProtocol */,
+				A54C4B8925EBF14500787C2C /* DemoAsyncFeedViewController.h */,
+				A54C4B8A25EBF14500787C2C /* DemoAsyncFeedViewController.m */,
+			);
+			path = AsyncFeed;
+			sourceTree = "<group>";
+		};
+		A54C4B3625EBEF3100787C2C /* DefaultFeed */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B3925EBEF4700787C2C /* SectionController */,
+				A54C4B3825EBEF4300787C2C /* Cell */,
+				A54C4B3725EBEF3B00787C2C /* DisplayProtocol */,
+				A54C4B3A25EBEF5D00787C2C /* DemoDefaultFeedViewController.h */,
+				A54C4B3B25EBEF5D00787C2C /* DemoDefaultFeedViewController.m */,
+			);
+			path = DefaultFeed;
+			sourceTree = "<group>";
+		};
+		A54C4B3725EBEF3B00787C2C /* DisplayProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B4325EBEF7F00787C2C /* DemoDefaultFeedDisplayProtocol.h */,
+			);
+			path = DisplayProtocol;
+			sourceTree = "<group>";
+		};
+		A54C4B3825EBEF4300787C2C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B4425EBEF9C00787C2C /* DemoDefaultFeedCell.h */,
+				A54C4B4525EBEF9C00787C2C /* DemoDefaultFeedCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A54C4B3925EBEF4700787C2C /* SectionController */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B4D25EBEFD500787C2C /* DemoDefaultFeedSectionController.h */,
+				A54C4B4E25EBEFD500787C2C /* DemoDefaultFeedSectionController.m */,
+			);
+			path = SectionController;
+			sourceTree = "<group>";
+		};
+		A54C4B5325EBEFFE00787C2C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B6425EBF05500787C2C /* DemoFeedNetwork.h */,
+				A54C4B6525EBF05500787C2C /* DemoFeedNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A54C4B5425EBF00400787C2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B5525EBF01500787C2C /* DemoFeedModel.h */,
+				A54C4B5625EBF01500787C2C /* DemoFeedModel.m */,
+				A54C4B5E25EBF02000787C2C /* DemoFeedItemModel.h */,
+				A54C4B5F25EBF02000787C2C /* DemoFeedItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A54C4B6A25EBF07800787C2C /* DisplayProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B6B25EBF08E00787C2C /* DemoAsyncFeedDisplayLayoutObj.h */,
+				A54C4B6C25EBF08E00787C2C /* DemoAsyncFeedDisplayLayoutObj.m */,
+				A54C4B7425EBF0A600787C2C /* DemoAsyncFeedDisplayProtocol.h */,
+			);
+			path = DisplayProtocol;
+			sourceTree = "<group>";
+		};
+		A54C4B7525EBF0DC00787C2C /* SectionController */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B7625EBF0F700787C2C /* DemoAsyncFeedSectionController.h */,
+				A54C4B7725EBF0F700787C2C /* DemoAsyncFeedSectionController.m */,
+			);
+			path = SectionController;
+			sourceTree = "<group>";
+		};
+		A54C4B7F25EBF11000787C2C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B8025EBF12300787C2C /* DemoAsyncFeedCell.h */,
+				A54C4B8125EBF12300787C2C /* DemoAsyncFeedCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A54C4B8F25EBF5E600787C2C /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B9025EBF61000787C2C /* CHTCollectionViewWaterfallLayout.h */,
+				A54C4B9125EBF61000787C2C /* CHTCollectionViewWaterfallLayout.m */,
+			);
+			path = FlowLayout;
+			sourceTree = "<group>";
+		};
+		A55D2F8225EBE90500A971AE = {
+			isa = PBXGroup;
+			children = (
+				A55D2F8D25EBE90500A971AE /* LNAsyncKit */,
+				A55D2FA925EBE90500A971AE /* LNAsyncKitTests */,
+				A55D2FB425EBE90500A971AE /* LNAsyncKitUITests */,
+				A55D2F8C25EBE90500A971AE /* Products */,
+				5FC409606967C8282258D935 /* Pods */,
+				4864477831835DC2514C6066 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A55D2F8C25EBE90500A971AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55D2F8B25EBE90500A971AE /* LNAsyncKit.app */,
+				A55D2FA625EBE90500A971AE /* LNAsyncKitTests.xctest */,
+				A55D2FB125EBE90500A971AE /* LNAsyncKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55D2F8D25EBE90500A971AE /* LNAsyncKit */ = {
+			isa = PBXGroup;
+			children = (
+				A55D2FD525EBE94900A971AE /* Main */,
+				A55D2FD425EBE94400A971AE /* Demo */,
+				A55D2FD325EBE93B00A971AE /* LNAsyncKit */,
+				A55D2F8E25EBE90500A971AE /* AppDelegate.h */,
+				A55D2F8F25EBE90500A971AE /* AppDelegate.m */,
+				A55D2F9725EBE90500A971AE /* Main.storyboard */,
+				A55D2F9A25EBE90500A971AE /* Assets.xcassets */,
+				A55D2F9C25EBE90500A971AE /* LaunchScreen.storyboard */,
+				A55D2F9F25EBE90500A971AE /* Info.plist */,
+				A55D2FA025EBE90500A971AE /* main.m */,
+			);
+			path = LNAsyncKit;
+			sourceTree = "<group>";
+		};
+		A55D2FA925EBE90500A971AE /* LNAsyncKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A55D2FAA25EBE90500A971AE /* LNAsyncKitTests.m */,
+				A55D2FAC25EBE90500A971AE /* Info.plist */,
+			);
+			path = LNAsyncKitTests;
+			sourceTree = "<group>";
+		};
+		A55D2FB425EBE90500A971AE /* LNAsyncKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A55D2FB525EBE90500A971AE /* LNAsyncKitUITests.m */,
+				A55D2FB725EBE90500A971AE /* Info.plist */,
+			);
+			path = LNAsyncKitUITests;
+			sourceTree = "<group>";
+		};
+		A55D2FD325EBE93B00A971AE /* LNAsyncKit */ = {
+			isa = PBXGroup;
+			children = (
+				A55D2FDA25EBE97000A971AE /* Cache */,
+				A55D2FD925EBE96B00A971AE /* Element */,
+				A55D2FD825EBE96600A971AE /* Renderer */,
+				A55D2FD725EBE96000A971AE /* Range */,
+				A55D2FD625EBE95900A971AE /* Transaction */,
+				A54C4B1625EBEE3A00787C2C /* LNAsyncKit.h */,
+			);
+			path = LNAsyncKit;
+			sourceTree = "<group>";
+		};
+		A55D2FD425EBE94400A971AE /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B1825EBEE6600787C2C /* BilibiliCellDemo */,
+				A54C4B1725EBEE5F00787C2C /* FeedDemo */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		A55D2FD525EBE94900A971AE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4B2225EBEEA100787C2C /* MainViewController.h */,
+				A54C4B2325EBEEA100787C2C /* MainViewController.m */,
+				A54C4B2825EBEEB500787C2C /* DemoItemObject.h */,
+				A54C4B2925EBEEB500787C2C /* DemoItemObject.m */,
+				A54C4B2E25EBEEC900787C2C /* DemoItemCollectionViewCell.h */,
+				A54C4B2F25EBEEC900787C2C /* DemoItemCollectionViewCell.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A55D2FD625EBE95900A971AE /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4AF525EBED5C00787C2C /* LNAsyncOperation.h */,
+				A54C4AF625EBED5C00787C2C /* LNAsyncOperation.m */,
+				A54C4AFB25EBED7500787C2C /* LNAsyncOperationQueue.h */,
+				A54C4AFC25EBED7500787C2C /* LNAsyncOperationQueue.m */,
+				A54C4B0125EBED9600787C2C /* LNAsyncOperationGroup.h */,
+				A54C4B0225EBED9600787C2C /* LNAsyncOperationGroup.m */,
+				A54C4B0725EBEDB300787C2C /* LNAsyncTransaction.h */,
+				A54C4B0825EBEDB300787C2C /* LNAsyncTransaction.m */,
+				A54C4B0D25EBEDD600787C2C /* LNAsyncTransactionGroup.h */,
+				A54C4B0E25EBEDD600787C2C /* LNAsyncTransactionGroup.m */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		A55D2FD725EBE96000A971AE /* Range */ = {
+			isa = PBXGroup;
+			children = (
+				A54C4AD125EBEC7400787C2C /* LNAsyncScrollDirectionExtend.h */,
+				A54C4AD225EBEC7400787C2C /* LNAsyncScrollDirectionExtend.m */,
+				A54C4AD725EBEC9800787C2C /* LNAsyncInterfaceStatusExtend.h */,
+				A54C4AD825EBEC9800787C2C /* LNAsyncInterfaceStatusExtend.m */,
+				A54C4ADD25EBECBD00787C2C /* LNAsyncAbstractLayoutController.h */,
+				A54C4ADE25EBECBD00787C2C /* LNAsyncAbstractLayoutController.m */,
+				A54C4AE325EBECEA00787C2C /* LNAsyncCollectionLayoutController.h */,
+				A54C4AE425EBECEA00787C2C /* LNAsyncCollectionLayoutController.m */,
+				A54C4AE925EBED1300787C2C /* LNAsyncRangeController.h */,
+				A54C4AEA25EBED1300787C2C /* LNAsyncRangeController.m */,
+				A54C4AEF25EBED3400787C2C /* LNAsyncCollectionViewPrender.h */,
+				A54C4AF025EBED3400787C2C /* LNAsyncCollectionViewPrender.m */,
+			);
+			path = Range;
+			sourceTree = "<group>";
+		};
+		A55D2FD825EBE96600A971AE /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				A55D300225EBEA6200A971AE /* LNAsyncRenderer.h */,
+				A55D300325EBEA6200A971AE /* LNAsyncRenderer.m */,
+				A55D300825EBEA7100A971AE /* LNAsyncRendererTraversalStack.h */,
+				A55D300925EBEA7100A971AE /* LNAsyncRendererTraversalStack.m */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		A55D2FD925EBE96B00A971AE /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				A55D2FEA25EBE9D000A971AE /* LNAsyncElement.h */,
+				A55D2FEB25EBE9D000A971AE /* LNAsyncElement.m */,
+				A55D2FF025EBE9FE00A971AE /* LNAsyncImageElement.h */,
+				A55D2FF125EBE9FE00A971AE /* LNAsyncImageElement.m */,
+				A55D2FF625EBEA1B00A971AE /* LNAsyncTextElement.h */,
+				A55D2FF725EBEA1B00A971AE /* LNAsyncTextElement.m */,
+				A55D2FFC25EBEA3800A971AE /* LNAsyncLinerGradientElement.h */,
+				A55D2FFD25EBEA3800A971AE /* LNAsyncLinerGradientElement.m */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		A55D2FDA25EBE97000A971AE /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				A55D2FDB25EBE98800A971AE /* LNAsyncRenderCache.h */,
+				A55D2FDC25EBE98800A971AE /* LNAsyncRenderCache.m */,
+				A55D2FE425EBE99200A971AE /* LNAsyncMemoryInfo.h */,
+				A55D2FE525EBE99200A971AE /* LNAsyncMemoryInfo.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55D2F8A25EBE90500A971AE /* LNAsyncKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55D2FBA25EBE90500A971AE /* Build configuration list for PBXNativeTarget "LNAsyncKit" */;
+			buildPhases = (
+				E930260504E71A7C453AF4E0 /* [CP] Check Pods Manifest.lock */,
+				A55D2F8725EBE90500A971AE /* Sources */,
+				A55D2F8825EBE90500A971AE /* Frameworks */,
+				A55D2F8925EBE90500A971AE /* Resources */,
+				17838A49A9E165C1E9F7A1C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNAsyncKit;
+			productName = LNAsyncKit;
+			productReference = A55D2F8B25EBE90500A971AE /* LNAsyncKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A55D2FA525EBE90500A971AE /* LNAsyncKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55D2FBD25EBE90500A971AE /* Build configuration list for PBXNativeTarget "LNAsyncKitTests" */;
+			buildPhases = (
+				A55D2FA225EBE90500A971AE /* Sources */,
+				A55D2FA325EBE90500A971AE /* Frameworks */,
+				A55D2FA425EBE90500A971AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55D2FA825EBE90500A971AE /* PBXTargetDependency */,
+			);
+			name = LNAsyncKitTests;
+			productName = LNAsyncKitTests;
+			productReference = A55D2FA625EBE90500A971AE /* LNAsyncKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A55D2FB025EBE90500A971AE /* LNAsyncKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55D2FC025EBE90500A971AE /* Build configuration list for PBXNativeTarget "LNAsyncKitUITests" */;
+			buildPhases = (
+				A55D2FAD25EBE90500A971AE /* Sources */,
+				A55D2FAE25EBE90500A971AE /* Frameworks */,
+				A55D2FAF25EBE90500A971AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55D2FB325EBE90500A971AE /* PBXTargetDependency */,
+			);
+			name = LNAsyncKitUITests;
+			productName = LNAsyncKitUITests;
+			productReference = A55D2FB125EBE90500A971AE /* LNAsyncKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55D2F8325EBE90500A971AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = Levison;
+				TargetAttributes = {
+					A55D2F8A25EBE90500A971AE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A55D2FA525EBE90500A971AE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A55D2F8A25EBE90500A971AE;
+					};
+					A55D2FB025EBE90500A971AE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A55D2F8A25EBE90500A971AE;
+					};
+				};
+			};
+			buildConfigurationList = A55D2F8625EBE90500A971AE /* Build configuration list for PBXProject "LNAsyncKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55D2F8225EBE90500A971AE;
+			productRefGroup = A55D2F8C25EBE90500A971AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55D2F8A25EBE90500A971AE /* LNAsyncKit */,
+				A55D2FA525EBE90500A971AE /* LNAsyncKitTests */,
+				A55D2FB025EBE90500A971AE /* LNAsyncKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A55D2F8925EBE90500A971AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55D2F9E25EBE90500A971AE /* LaunchScreen.storyboard in Resources */,
+				A55D2F9B25EBE90500A971AE /* Assets.xcassets in Resources */,
+				A55D2F9925EBE90500A971AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55D2FA425EBE90500A971AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55D2FAF25EBE90500A971AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17838A49A9E165C1E9F7A1C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LNAsyncKit/Pods-LNAsyncKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LNAsyncKit/Pods-LNAsyncKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LNAsyncKit/Pods-LNAsyncKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E930260504E71A7C453AF4E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LNAsyncKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55D2F8725EBE90500A971AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54C4B6D25EBF08E00787C2C /* DemoAsyncFeedDisplayLayoutObj.m in Sources */,
+				A54C4B7825EBF0F700787C2C /* DemoAsyncFeedSectionController.m in Sources */,
+				A54C4B0925EBEDB300787C2C /* LNAsyncTransaction.m in Sources */,
+				A55D300A25EBEA7100A971AE /* LNAsyncRendererTraversalStack.m in Sources */,
+				A55D2FFE25EBEA3800A971AE /* LNAsyncLinerGradientElement.m in Sources */,
+				A54C4B8225EBF12300787C2C /* DemoAsyncFeedCell.m in Sources */,
+				A54C4B3025EBEEC900787C2C /* DemoItemCollectionViewCell.m in Sources */,
+				A54C4AF725EBED5C00787C2C /* LNAsyncOperation.m in Sources */,
+				A55D300425EBEA6200A971AE /* LNAsyncRenderer.m in Sources */,
+				A55D2FE625EBE99200A971AE /* LNAsyncMemoryInfo.m in Sources */,
+				A54C4AD325EBEC7400787C2C /* LNAsyncScrollDirectionExtend.m in Sources */,
+				A54C4ADF25EBECBD00787C2C /* LNAsyncAbstractLayoutController.m in Sources */,
+				A54C4B3C25EBEF5D00787C2C /* DemoDefaultFeedViewController.m in Sources */,
+				A54C4B5725EBF01500787C2C /* DemoFeedModel.m in Sources */,
+				A54C4B1B25EBEE8000787C2C /* DemoBilibiliCellViewController.m in Sources */,
+				A55D2F9025EBE90500A971AE /* AppDelegate.m in Sources */,
+				A54C4B4F25EBEFD500787C2C /* DemoDefaultFeedSectionController.m in Sources */,
+				A54C4AF125EBED3400787C2C /* LNAsyncCollectionViewPrender.m in Sources */,
+				A54C4B2425EBEEA100787C2C /* MainViewController.m in Sources */,
+				A54C4B9225EBF61000787C2C /* CHTCollectionViewWaterfallLayout.m in Sources */,
+				A54C4B8B25EBF14500787C2C /* DemoAsyncFeedViewController.m in Sources */,
+				A54C4AE525EBECEA00787C2C /* LNAsyncCollectionLayoutController.m in Sources */,
+				A55D2FF225EBE9FE00A971AE /* LNAsyncImageElement.m in Sources */,
+				A54C4AFD25EBED7500787C2C /* LNAsyncOperationQueue.m in Sources */,
+				A55D2FEC25EBE9D000A971AE /* LNAsyncElement.m in Sources */,
+				A54C4B4625EBEF9C00787C2C /* DemoDefaultFeedCell.m in Sources */,
+				A55D2FA125EBE90500A971AE /* main.m in Sources */,
+				A54C4AEB25EBED1300787C2C /* LNAsyncRangeController.m in Sources */,
+				A54C4B0325EBED9600787C2C /* LNAsyncOperationGroup.m in Sources */,
+				A54C4B6625EBF05500787C2C /* DemoFeedNetwork.m in Sources */,
+				A54C4AD925EBEC9800787C2C /* LNAsyncInterfaceStatusExtend.m in Sources */,
+				A54C4B0F25EBEDD600787C2C /* LNAsyncTransactionGroup.m in Sources */,
+				A55D2FF825EBEA1B00A971AE /* LNAsyncTextElement.m in Sources */,
+				A54C4B2A25EBEEB500787C2C /* DemoItemObject.m in Sources */,
+				A55D2FDD25EBE98800A971AE /* LNAsyncRenderCache.m in Sources */,
+				A54C4B6025EBF02000787C2C /* DemoFeedItemModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55D2FA225EBE90500A971AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55D2FAB25EBE90500A971AE /* LNAsyncKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55D2FAD25EBE90500A971AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55D2FB625EBE90500A971AE /* LNAsyncKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A55D2FA825EBE90500A971AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55D2F8A25EBE90500A971AE /* LNAsyncKit */;
+			targetProxy = A55D2FA725EBE90500A971AE /* PBXContainerItemProxy */;
+		};
+		A55D2FB325EBE90500A971AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55D2F8A25EBE90500A971AE /* LNAsyncKit */;
+			targetProxy = A55D2FB225EBE90500A971AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A55D2F9725EBE90500A971AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55D2F9825EBE90500A971AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A55D2F9C25EBE90500A971AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55D2F9D25EBE90500A971AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A55D2FB825EBE90500A971AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A55D2FB925EBE90500A971AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55D2FBB25EBE90500A971AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF8A9CB41AF75D08D6317D5 /* Pods-LNAsyncKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNAsyncKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNAsyncKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A55D2FBC25EBE90500A971AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3A97FDFB80D28520F9F314 /* Pods-LNAsyncKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNAsyncKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNAsyncKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A55D2FBE25EBE90500A971AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNAsyncKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNAsyncKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNAsyncKit.app/LNAsyncKit";
+			};
+			name = Debug;
+		};
+		A55D2FBF25EBE90500A971AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNAsyncKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNAsyncKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNAsyncKit.app/LNAsyncKit";
+			};
+			name = Release;
+		};
+		A55D2FC125EBE90500A971AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNAsyncKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNAsyncKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNAsyncKit;
+			};
+			name = Debug;
+		};
+		A55D2FC225EBE90500A971AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNAsyncKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNAsyncKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNAsyncKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55D2F8625EBE90500A971AE /* Build configuration list for PBXProject "LNAsyncKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55D2FB825EBE90500A971AE /* Debug */,
+				A55D2FB925EBE90500A971AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55D2FBA25EBE90500A971AE /* Build configuration list for PBXNativeTarget "LNAsyncKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55D2FBB25EBE90500A971AE /* Debug */,
+				A55D2FBC25EBE90500A971AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55D2FBD25EBE90500A971AE /* Build configuration list for PBXNativeTarget "LNAsyncKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55D2FBE25EBE90500A971AE /* Debug */,
+				A55D2FBF25EBE90500A971AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55D2FC025EBE90500A971AE /* Build configuration list for PBXNativeTarget "LNAsyncKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55D2FC125EBE90500A971AE /* Debug */,
+				A55D2FC225EBE90500A971AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55D2F8325EBE90500A971AE /* Project object */;
+}
