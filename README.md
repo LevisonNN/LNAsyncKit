@@ -6,8 +6,6 @@ LNAsyncKit是一个异步渲染框架：An async feed stream framework.
 * 提供预加载策略帮助你在Feed流中弥补异步渲染带来的延时。
 * 提供更优雅的方式让主线程与子线程交互，并能根据机器状态控制并发数和主线程回调时机。
 
-### [Github链接](https://github.com/LevisonNN/LNAsyncKit)
-
 你可以直接下载这个链接并运行上面的Demo参考代码实现自己的异步列表，也可以直接使用Cocoapods👇
 
 ```
