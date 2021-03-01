@@ -83,12 +83,14 @@
     
     if (self.status >= DemoFeedItemModelStatusDisplay) {
         if (self.originalImage && (!self.renderResultImage) && (!self.renderResultImageTransaction)) {
-            LNAsyncElement *contentElement = [self rebuildElements];
             self.renderResultImageTransaction = [[LNAsyncTransaction alloc] init];
             __weak DemoFeedItemModel *weakSelf = self;
             [self.renderResultImageTransaction addOperationWithBlock:^id _Nullable{
+                LNAsyncElement *contentElement = [weakSelf rebuildElements];
                 [LNAsyncRenderer traversalElement:contentElement];
-                return contentElement.renderResult;
+                UIImage *image = contentElement.renderResult;
+                contentElement.renderResult = nil;
+                return image;
             } priority:0 queue:[LNAsyncRenderer globalRenderQueue] completion:^(id  _Nullable value, BOOL canceled) {
                 if ([value isKindOfClass:UIImage.class] && (!canceled)) {
                     UIImage *image = value;
